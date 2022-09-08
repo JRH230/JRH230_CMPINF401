@@ -20,8 +20,10 @@ public class Pythagorean {
 		double hypotenuse = Math.sqrt(sum);
 		
 		JOptionPane.showMessageDialog(null, "The hypotenuse is " + (hypotenuse)); 
-		
-		
+		double finalhyp = hypotenuse; 
+		finalhyp = finalhyp * 100;
+		long r = Math.round(finalhyp);
+		System.out.println(finalhyp = r /100.0);
 
 	}
 
