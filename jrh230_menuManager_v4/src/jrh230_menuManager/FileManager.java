@@ -25,21 +25,6 @@ public class FileManager {
 		try(BufferedReader br = new BufferedReader(new FileReader(fileName))){ 
 			while(br.ready()) {
 				String line = br.readLine(); 
-				// String[] menusArray = line.split("@@");
-				/* MenuItem items = new MenuItem(line, line, line, line, line);
-				if(menusArray[1] == "entree") {
-					items = new Entree(menusArray[0],menusArray[2], menusArray[3], menusArray[4]);
-				}
-				if(menusArray[1] == "side") {
-					items = new Side(menusArray[0],menusArray[2], menusArray[3], menusArray[4]);
-				}
-				if(menusArray[1] == "salad") {
-					items = new Salad(menusArray[0],menusArray[2], menusArray[3], menusArray[4]);
-				}
-				if(menusArray[1] == "dessert") {
-					items = new Dessert(menusArray[0],menusArray[2], menusArray[3], menusArray[4]);
-				}
-				*/
 				MenuItem items = new MenuItem(line.split("@@")[1], line.split("@@")[2],Integer.parseInt(line.split("@@")[3]),Double.parseDouble(line.split("@@")[4]));
 				if(line.split("@@")[1].equals("entree")) {
 					 items = new Entree(line.split("@@")[0], line.split("@@")[2],

@@ -5,10 +5,10 @@ import java.util.Random;
 
 public class MenuManager {
 
-	private ArrayList<Entree> entrees;
-	private ArrayList<Side> sides;
-	private ArrayList<Salad> salads;
-	private ArrayList<Dessert> desserts;
+	protected ArrayList<Entree> entrees;
+	protected ArrayList<Side> sides;
+	protected ArrayList<Salad> salads;
+	protected ArrayList<Dessert> desserts;
 
 	public MenuManager() {
 		entrees = new ArrayList<Entree>();
@@ -16,6 +16,36 @@ public class MenuManager {
 		salads = new ArrayList<Salad>();
 		desserts = new ArrayList<Dessert>();
 	}
+	
+	public MenuManager(String dishesFile) {
+		entrees = new ArrayList<Entree>();
+		sides = new ArrayList<Side>();
+		salads = new ArrayList<Salad>();
+		desserts = new ArrayList<Dessert>();
+	
+		ArrayList<MenuItem> menuItems = FileManager.readItems(dishesFile);
+		for(MenuItem i : menuItems) {
+			if(i instanceof Entree) {
+				entree = new Entree(i.getName(),i.getDescription(), i.getCalories(), i.getPrice());
+				entrees.add(entree);
+			}
+			if(i instanceof Side) {
+				side = new Side(i.getName(),i.getDescription(), i.getCalories(), i.getPrice());
+				sides.add(side);
+			}
+			if(i instanceof Salad) {
+				salad = new Salad(i.getName(),i.getDescription(), i.getCalories(), i.getPrice());
+				salads.add(salad);
+			}
+			if(i instanceof Dessert) {
+				dessert = new Dessert(i.getName(),i.getDescription(), i.getCalories(), i.getPrice());
+				desserts.add(dessert);
+			}
+
+		}
+		
+	}
+	
 	
 	Entree entree;
 	Salad salad;

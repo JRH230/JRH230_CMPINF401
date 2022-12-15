@@ -1,0 +1,70 @@
+Menu name: 
+Menu1
+Total Calories: 1255
+Total Price: 38.2
+Description: Chocolate Cake 
+Low calorie chocolate cake 
+175 calories
+Menu name: 
+Menu2
+Total Calories: 1015
+Total Price: 26.5
+Description: Chocolate Cake 
+Low calorie chocolate cake 
+175 calories
+Menu name: 
+Menu3
+Total Calories: 1325
+Total Price: 26.9
+Description: Ice Cream 
+Choose among vanilla, mango, pineapple, chocolate and orange ice cream 
+250 calories
+Menu name: 
+Menu4
+Total Calories: 1020
+Total Price: 25.7
+Description: Fruit Salad 
+Oranges, bananas, apples, grapes, strawberries 
+200 calories
+Menu name: 
+Menu5
+Total Calories: 1275
+Total Price: 24.2
+Description: Ice Cream 
+Choose among vanilla, mango, pineapple, chocolate and orange ice cream 
+250 calories
+Menu name: 
+Menu6
+Total Calories: 1040
+Total Price: 26.9
+Description: Ice Cream 
+Choose among vanilla, mango, pineapple, chocolate and orange ice cream 
+250 calories
+Menu name: 
+Menu7
+Total Calories: 1200
+Total Price: 24.2
+Description: Ice Cream 
+Choose among vanilla, mango, pineapple, chocolate and orange ice cream 
+250 calories
+Menu name: 
+Menu8
+Total Calories: 1380
+Total Price: 31.0
+Description: Chocolate Cake 
+Low calorie chocolate cake 
+175 calories
+Menu name: 
+Menu9
+Total Calories: 1090
+Total Price: 26.5
+Description: Chocolate Cake 
+Low calorie chocolate cake 
+175 calories
+Menu name: 
+Menu10
+Total Calories: 1405
+Total Price: 34.4
+Description: Ice Cream 
+Choose among vanilla, mango, pineapple, chocolate and orange ice cream 
+250 calories
